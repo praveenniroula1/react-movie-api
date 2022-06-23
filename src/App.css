@@ -1,7 +1,23 @@
-.wrapper {
-  background: rgb(224, 180, 180);
-  min-height: 100vh;
-}
-.list {
+/* .wrapper( */
+/* From https://css.glass */
+/* background: rgba(255, 255, 255, 0.42);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(12.7px);
+-webkit-backdrop-filter: blur(12.7px);
+border: 1px solid rgba(255, 255, 255, 1);
+ min-height: 100vh;
+); */
+
+/* .list {
   border-radius: 50%;
+} */
+.wrapper {
+  background: rgba(138, 95, 95, 0.42);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(219, 82, 82, 0.1);
+  backdrop-filter: blur(12.7px);
+  -webkit-backdrop-filter: blur(12.7px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  min-height: 100vh;
 }

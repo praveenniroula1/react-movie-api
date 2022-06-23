@@ -6,7 +6,6 @@ import { Customcard } from "./Components/Customcard";
 // import { Customlist } from "./Components/Customlist";
 import { Movielist } from "./Components/Movielist";
 import { fetchMovieInfo } from "./helpers/Axios";
-
 function App() {
   const [Movie, setMovie] = useState({});
   const [showError, setShowError] = useState("");
