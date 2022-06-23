@@ -5,7 +5,9 @@ import { Searchform } from "./Components/Searchform";
 import { Customcard } from "./Components/Customcard";
 // import { Customlist } from "./Components/Customlist";
 import { Movielist } from "./Components/Movielist";
-import { fetchMovieInfo } from "./helpers/axios";
+// import { fetchMovieInfo } from "./helpers/axios";
+import second from './helpers/axiosHelper'
+
 function App() {
   const [Movie, setMovie] = useState({});
   const [showError, setShowError] = useState("");
